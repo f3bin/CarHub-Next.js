@@ -1,0 +1,33 @@
+.navbar_container {
+     width: 100%;
+     position: absolute;
+     z-index: 10;
+
+     .navbar_nav {
+          max-width: 1440px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.5rem 1rem;
+
+          .navbar_nav-link {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+               .navbar_nav-link-img {
+                    object-fit: contain;
+               }
+          }
+
+          .button-style {
+               color: #0074E4;
+             
+               border-radius: 9999px;
+               
+               background-color: white;
+               min-width: 130px;
+          }
+     }
+}
