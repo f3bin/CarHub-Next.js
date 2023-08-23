@@ -1,0 +1,63 @@
+.search-manufacturer {
+     flex: 1;
+     max-width: 100%;
+     height: 30px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   
+   .search-manufacturer .relative-full-width {
+     position: relative;
+     width: 100%;
+   }
+   
+   .search-manufacturer .combobutton {
+     position: relative;
+     top: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: none;
+   }
+   
+   .search-manufacturer .combobutton .ml-4 {
+     border: none;
+   }
+   
+   .search-manufacturer .search-manufacturer__input {
+     width: 100%;
+     height: 12px;
+     padding-left: 3rem;
+      padding: 1rem;
+     border: none;
+     border-radius: 9999px;
+     background-color: #f2f2f2;
+     outline: none;
+     cursor: pointer;
+     font-size: 0.875rem;
+   }
+   
+   .search-manufacturer .search-manufacturer__option {
+     cursor: default;
+     user-select: none;
+     list-style: none;
+     padding-top: 0.5rem;
+     padding-left: 2.5rem;
+     padding-right: 1rem;
+   }
+   
+   .search-manufacturer .search-manufacturer__option.bg-primary-blue {
+     background-color: #3490dc;
+  
+   }
+   
+   .search-manufacturer .search-manufacturer__option.text-white {
+     color: #ffffff;
+   }
+   
+   .search-manufacturer .search-manufacturer__option.text-gray-900 {
+     color: #000000;
+   }
+   

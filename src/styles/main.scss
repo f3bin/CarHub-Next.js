@@ -1,3 +1,43 @@
-.home-main_container{
+.home-main_container {
      overflow: hidden;
+
+
+     .home_catalogue-container {
+          margin-top: 12px;
+          margin: 0px 40px;
+          padding: 4px 6px;
+          max-width: 100%;
+
+          .home__text-container {
+               display: flex;
+               flex-direction: column;
+               align-items: flex-start;
+               justify-content: flex-start;
+               gap: 2.5rem;
+               color: #000;
+
+               h3 {
+                    font-size: 2.25rem;
+                    font-weight: 800;
+               }
+          }
+
+          .home_filters {
+               margin-top: 12px;
+               width: 100%;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               flex-wrap: wrap;
+               gap: 5px;
+
+               .home__filter-container{
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 2px;
+               }
+          }
+     }
 }

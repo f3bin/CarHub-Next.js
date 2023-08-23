@@ -6,7 +6,7 @@
      z-index: 0;
      max-width: 1440px;
      margin: 0 auto;
-     height: 100vh;
+     height: 88vh;
    
      @media (min-width: 768px) {
        flex-direction: row;
@@ -19,8 +19,8 @@
    
      @media (min-width: 1024px) {
        .hero__image-container {
-         justify-content: center; /* Center image on medium screens */
-         align-items: center; /* Center image on medium screens */
+         justify-content: center; 
+         align-items: center; 
        }
      }
    
@@ -48,8 +48,8 @@
    
      .hero__image-container {
        display: flex;
-       justify-content: center; /* Center image on small and medium screens */
-       align-items: center; /* Center image on small and medium screens */
+       justify-content: center; 
+       align-items: center; 
        width: 100%;
        height: 100vh;
    
@@ -67,8 +67,8 @@
    
        .hero__image-overlay {
          position: absolute;
-         top: -6rem;
-         right: -50%;
+         top: -10rem;
+         right: -40%;
          background-image: url('/hero-bg.png');
          background-repeat: round;
          z-index: -10;
